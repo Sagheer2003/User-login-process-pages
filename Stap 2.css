@@ -1,0 +1,167 @@
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  
+  height: 310px;
+  width: 565px;
+  justify-content: center;
+  align-items: center;
+  margin: -33px 41px 36px 393px;
+  position: absolute ;
+}
+
+
+
+input {
+  width: 500px;
+  height: 30px;
+  
+}
+
+a {
+  color: blue; 
+  background-color: aqua;/* Set the default color for the link */
+}
+
+/* Define the styles for the link when hovered */
+a:hover {
+  color: red; /* Set the color for the link when hovered */
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.header a {
+  display:flex;
+  justify-content: center;
+  color: inherit;
+  cursor: text;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(22, 140, 243);
+  float: left;
+  padding: 10px 2px 10px 2px;
+  margin: 60px 12px 43px 8px;
+  width: 180px;
+  outline: none;
+  touch-action: auto;
+
+}
+
+input {
+  height: 30px;
+  width: 300px;
+}
+
+li {
+  font-size: 18px;
+  
+}
+
+   #color1 {
+  background-color: aqua;
+  color: black;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  
+}
+  .submit {
+    font-size: 20px;
+     width: 130px;
+     height: 40px;
+     border-radius: 50px;
+     cursor: pointer;
+     outline: auto;
+     color: white;
+     background-color: rgb(253, 5, 5);
+     margin: 2px 7px 4px -3px;
+     
+  }
+
+
+  :hover.submit .header {
+    background-color: rgb(4, 1, 49);
+    width: 200px;
+    font-size: 25px;
+    
+    
+  }
+
+  
+ 
+ 
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 300px) {
+    .wrapper {
+      font-size: 14px;
+    }
+    .sub-container {
+      grid-template-columns: 1fr;
+      gap: 1em;
+    }
+  }

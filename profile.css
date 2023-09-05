@@ -1,0 +1,96 @@
+.profile-container{
+
+    width: 60%;
+    display: flex;
+    height: 600px;
+    justify-content:center;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.header-top{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: rgb(14, 13, 13);
+  height: 60px;
+  position: relative;   
+  top: -20px; 
+  right: -1%;
+  left: -1%;
+  width: 102%;
+  
+
+}
+
+.header-tex h1{
+   margin-left: 70px;
+   position: relative;
+   top: 23px;
+    
+   
+  
+  }
+
+  
+
+#dashboard{
+   display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    top: -60px;
+    left: 1000px;
+  
+   }
+
+   #dashboard:hover{
+    background-color: rgb(212, 211, 211);
+    width: 10%;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    
+  
+  }
+  
+
+img{
+height: 200px;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    height: 300px;
+    width:600px;
+}
+legend{
+    font-size: 30px;
+
+}
+
+label {
+    font-size:  25px;
+}
+
+input{
+    height: 25px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+#hide{
+ display: none;
+
+}
+
+.post{
+    
+}
+
+
+.show{
+    display: none;
+}
